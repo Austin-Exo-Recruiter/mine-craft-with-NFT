@@ -1,7 +1,7 @@
 ## Running the application
 
 1. Clone the repo
-      
+      `git clone https://github.com/Austin-Exo-Recruiter/mine-craft-with-NFT.git`
 2. Install dependencies:
    In the project root directory, run this command
       `npm install --legacy-peer-deps`

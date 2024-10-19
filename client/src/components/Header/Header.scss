@@ -1,0 +1,198 @@
+.recent-link {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 3vw;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+
+  .navbar-group {
+    background-color: rgba(16, 16, 20, 0.21);
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+
+    .navbar-item {
+      padding: 10px;
+      background-color: #ffffff;
+      display: inline-flex;
+      height: 39px;
+      border-radius: 10px;
+      margin: 0px 10px;
+      font-size: 16px;
+      color: black;
+      font-family: "Mada";
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      .control-option-image {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .navbar-item-black {
+      padding: 10px;
+      background-color: #101014;
+      display: inline-flex;
+      height: 39px;
+      border-radius: 10px;
+      margin: 0px 10px;
+      font-size: 16px;
+      color: white;
+      font-family: "Mada";
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      .control-option-image {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  .navlinks {
+    .balance-image {
+      width: 39px;
+      border: solid 2px white;
+      border-radius: 39px;
+      padding: 2px;
+      &:hover {
+        cursor: pointer;
+      }
+      margin-left: 10px;
+    }
+  }
+}
+
+.sol-balance {
+  display: block;
+  text-align: end;
+  font-family: "Mada";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: black;
+  margin-right: 3vw;
+}
+
+.sol-balance-black {
+  display: block;
+  text-align: end;
+  font-family: "Mada";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: white;
+  margin-right: 3vw;
+}
+
+.rectangle-image {
+  width: 65%;
+  height: 2px;
+  margin: 5px;
+}
+
+.yellow-image {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 270px;
+}
+
+.balance-image-profile {
+  width: 100px;
+  border: solid 2px white;
+  border-radius: 39px;
+  padding: 2px;
+  &:hover {
+    cursor: pointer;
+  }
+  margin-top: 15px;
+}
+
+.btn-change-avatar {
+  background-color: #f7be44 !important;
+  color: #000000 !important;
+  margin: 10px !important;
+}
+
+.wallet-adapter-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "mada";
+  font-size: 16px;
+  font-weight: 600;
+  height: 39px !important;
+  padding: 0 11px !important;
+  border-radius: 7px !important;
+  margin-right: 9px !important;
+  margin-left: 12px !important;
+  white-space: nowrap;
+}
+
+.wallet-adapter-button-trigger {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+
+.wallet-adapter-button-trigger-black {
+  background-color: #101014 !important;
+  color: #fff !important;
+}
+
+.wallet-adapter-dropdown-list-item {
+  display: none !important;
+}
+
+.wallet-adapter-button-start-icon {
+  place-self: flex-start !important;
+  margin-right: 8px !important;
+  margin-top: 5px !important;
+}
+
+.wallet-adapter-button-start-icon img {
+  margin-top: 5px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.avatar-view {
+  width: 250px;
+  height: 150px;
+  margin-left: 20px;
+  overflow-y: scroll;
+  scrollbar-width: 1px;
+
+  .avatar-image {
+    width: 100px;
+    border-radius: 39px;
+    padding: 2px;
+    &:hover {
+      cursor: pointer;
+    }
+    margin-top: 15px;
+  }
+
+  .avatar-image.active {
+    border: solid 2px black;
+  }
+}
+
+.avatar-view::-webkit-scrollbar {
+  width: 20px;
+}

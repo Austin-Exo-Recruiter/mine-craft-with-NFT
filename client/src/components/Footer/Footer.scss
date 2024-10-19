@@ -1,0 +1,76 @@
+.footer-container {
+  margin-top: 30px;
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer-icons {
+  width: 36px;
+  margin: 5px;
+}
+
+.copyright {
+  font-family: "Mada";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5405px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.copyright-mobile {
+  font-family: "Mada";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5405px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #000;
+}
+.footer-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solana-speed {
+  font-family: "Mada";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5405px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  img {
+    width: auto;
+    height: 16px;
+  }
+}
+
+.solana-speed-mobile {
+  font-family: "Mada";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5405px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  img {
+    width: auto;
+    height: 16px;
+  }
+}
+
+.footer-divider {
+  background: #212535;
+}
